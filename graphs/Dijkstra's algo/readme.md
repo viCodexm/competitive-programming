@@ -38,5 +38,10 @@ http://e-maxx.ru/algo/dijkstra
 полученным значением длины. 
 Рассмотрев всех соседей, пометим вершину u как посещённую и повторим шаг алгоритма.
 
-[`Визуализация алгоритма`](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
-==
+<p align="center">
+  <img src="https://github.com/viCodexm/competitive-programming/blob/main/graphs/Dijkstra's%20algo/Dijkstra_Animation.gif" alt="animated Dijkstra's algo" />
+</p>
+
+
+[`Подробная визуализация алгоритма`](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
+=
