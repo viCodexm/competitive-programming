@@ -1,1 +1,1 @@
-позитив :)
+competitive programming
