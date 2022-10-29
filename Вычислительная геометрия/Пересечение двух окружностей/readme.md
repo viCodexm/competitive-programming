@@ -17,8 +17,12 @@
 Рассмотрим треугольники ADH и BDH. Обозначим расстояние между центрами окружностей за d, сторону AH за a, BH за b, HD за h. Найдем длину отрезка AH, решив систему уравнений:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.image?\inline&space;\large&space;\bg{white}{\color{White}\left\{\begin{matrix}{r}^{2}_a&plus;{a}^{2}={h}^{2}&space;\\{r}^{2}_b&plus;{b}^{2}={h}^{2}&space;\\d=a&plus;\end{matrix}\right.&space;}"/>
+  <img src="https://github.com/viCodexm/competitive-programming/blob/main/Вычислительная%20геометрия/Пересечение%20двух%20окружностей/Картинки/Система%20уравений.svg" width="200"/>
 </p>
+
+Подставим вместо h^2 в первом уравнении второе уравнение и выразим значение b из третьего уравнения: 
+
+Упростив систему уравнений, получим:
 
 
 В разработке...
