@@ -34,7 +34,7 @@
 
 Выразим а. Упростив систему уравнений, получим:
 <p align="center">
-  <img src="https://github.com/viCodexm/competitive-programming/blob/main/Вычислительная%20геометрия/Пересечение%20двух%20окружностей/Картинки/Выразили%20а.svg" width="200"/>
+  <img src="https://github.com/viCodexm/competitive-programming/blob/main/Вычислительная%20геометрия/Пересечение%20двух%20окружностей/Картинки/Выразили_а.svg" width="200"/>
 </p>
 
 Теперь рассчитаем координаты точки H.
