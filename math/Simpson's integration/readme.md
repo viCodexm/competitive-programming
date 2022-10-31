@@ -1,8 +1,14 @@
 
 http://e-maxx.ru/algo/simpson_integrating
 
-Интеграл на [a,b] f(x)dx = ff * h / 3
+Интеграл на [a,b] 
 
-где ff = f(x0) + 4f(x1) + 2(fx2) + 4f(x3) + 2f(x4) .. + f(xn)
-    
-    h = (b - a) / 2n
+$$ \Huge \int\limits_a^b f(x) \mathrm{d}x = \frac{(ff*h)}{3} $$
+
+где 
+
+$$ \Huge ff = f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + 2f(x_4) + ... + f(x_{2n}) $$  
+  
+$$ \Huge h=\frac{(b - a)}{2n} $$
+  
+   
