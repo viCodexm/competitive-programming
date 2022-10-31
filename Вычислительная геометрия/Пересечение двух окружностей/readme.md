@@ -58,9 +58,14 @@
 
 Точки C и D диаметрально противоположны, поэтому для второй точки мы прибавляем длину проекции по оси абсцисс, а по оси ординат вычитаем.
 
-[`Подробная визуализация`](https://www.desmos.com/calculator/x2vou4kwv1)
+[`Подробная визуализация`](https://www.desmos.com/calculator/e3qbfnzhje)
 =
 А теперь пересечение окружностей
 =
+
+Немного изменим картинку[`Источник`](https://diego.assencio.com/?index=8d6ca3d82151bad815f78addf9b5c1c6): 
+<p align="center">
+  <img src="https://github.com/viCodexm/competitive-programming/blob/main/Вычислительная%20геометрия/Пересечение%20двух%20окружностей/Картинки/Картинкадвеокр_новая.png" width="500"/>
+</p>
 
 В разработке...
