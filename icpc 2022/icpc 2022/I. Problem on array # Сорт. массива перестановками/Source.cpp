@@ -12,7 +12,6 @@ int main() {
 	
 	int n; cin >> n;
 	vector<int> input(n);
-	vector<int> zeros;
 	priority_queue<int, vector<int>, std::less<int>> ones;
 	vector<int> twos;
 
@@ -20,9 +19,6 @@ int main() {
 		cout << "get " << i + 1 << endl;
 		cin >> input[i];
 		switch (input[i]) {
-		case 0:
-			zeros.push_back(i);
-			break;
 		case 1:
 			ones.push(i);
 			break;
@@ -33,7 +29,7 @@ int main() {
 
 		fflush(stdout);
 	}
-	// zeros, ones, twos упорядочены по возрастанию позиций
+	//ones, twos упорядочены по возрастанию позиций
 	
 	// указатель на последний элемент
 	int ptr = input.size()-1;
