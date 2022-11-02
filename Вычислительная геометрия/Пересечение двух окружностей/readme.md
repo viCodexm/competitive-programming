@@ -85,3 +85,8 @@ $${\Huge {y}_D={y}_H-\frac{h*({x}_B-{x}_A)}{d} }$$
 
 $${\Huge S = ({r}^{2}_a * \arccos{\frac{a}{r_a}} - a * \sqrt{ {r}^{2}_a - {a}^{2}}) + 
 ({r}^{2}_b * \arccos{\frac{b}{r_b}} - b * \sqrt{ {r}^{2}_b - {b}^{2}})}$$
+
+или 
+
+$${\Huge S = ({r}^{2}_a * \arccos{\frac{a}{r_a}} - a * h) + 
+({r}^{2}_b * \arccos{\frac{b}{r_b}} - b * h)}$$
