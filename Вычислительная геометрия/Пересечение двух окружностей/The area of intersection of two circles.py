@@ -6,15 +6,15 @@
 Выход
 На выходе функции два варианта значений:
 Если окружности пересекаются, то площадь пересечения оружностей
-Если окружности не пересекаются, то -1
+Если окружности не пересекаются, то 0
 """
 from math import pi, acos
 def AreaCrossTwoCircles(Ccl1, Ccl2):
-    distance = ((Ccl2['x'] - Ccl1['x']) ** 2 + (Ccl2['y'] - Ccl1['y']) ** 2) ** 0.5
-    if (distance > Ccl1['r'] + Ccl2['r']) or distance == (Ccl1['r'] + Ccl2['r']):    #Площадь пересечения = 0
-        return -1
+    distance = ((Ccl2['x'] - Ccl1['x']) ** 2 + (Ccl2['y'] - Ccl1['y']) ** 2) ** 0.5 #Расстояние между центрами окружностей
+    if (distance > (Ccl1['r'] + Ccl2['r'])) or (distance == (Ccl1['r'] + Ccl2['r'])):    #Площадь пересечения = 0
+        return 0
     elif distance < abs(Ccl2['r'] - Ccl1['r']):     #Одна окружность находится в другой
-        return pi * min(Ccl1['r'], Ccl2['r']) ** 2
+        return pi * min(Ccl1['r'], Ccl2['r']) ** 2  #Площадь пересечения равна окружности с меньшим радиусом
     else:
         a = (Ccl1['r'] ** 2 - Ccl2['r'] ** 2 + distance ** 2) / (2 * distance)
         b = distance - a
