@@ -76,10 +76,7 @@ $${\Huge {y}_D={y}_H-\frac{h*({x}_B-{x}_A)}{d} }$$
 А теперь пересечение окружностей
 =
 
-Немного изменим картинку[`Источник`](https://diego.assencio.com/?index=8d6ca3d82151bad815f78addf9b5c1c6): 
-<p align="center">
-  <img src="https://github.com/viCodexm/competitive-programming/blob/main/Вычислительная%20геометрия/Пересечение%20двух%20окружностей/Картинки/Картинкадвеокр_новая.png" width="500"/>
-</p>
+Доказательство формулы здесь - [`Источник`](https://diego.assencio.com/?index=8d6ca3d82151bad815f78addf9b5c1c6)
 
 Формула площади пересечения двух окружностей:
 
