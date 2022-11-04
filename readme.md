@@ -8,5 +8,5 @@ ___________
 
 Пароль: passcp9064e
 ___________
-[`Превью`](https://github.com/viCodexm/competitive-programming/tree/main/картинки)
+[`Превью`](https://github.com/viCodexm/competitive-programming/tree/main/Полезные%20материалы/картинки)
 =
