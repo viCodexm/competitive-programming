@@ -20,7 +20,7 @@
 ❌
 
 [G. Sleep](https://github.com/viCodexm/competitive-programming/tree/main/icpc%202022/icpc%202022/G.%20Sleep%20%23Объединение%20отрезков)
-❌
+✔️
 
 [H. Crawling](https://github.com/viCodexm/competitive-programming/tree/main/icpc%202022/icpc%202022/H.%20Crawling%20%23Лабиринт%20на%20Дейкстру)
 ❌
@@ -35,7 +35,7 @@
 ❌
 
 [L. Towers](https://github.com/viCodexm/competitive-programming/tree/main/icpc%202022/icpc%202022/L.%20Towers)
-❌
+✔️
 
 [M. Choosing a name](https://github.com/viCodexm/competitive-programming/tree/main/icpc%202022/icpc%202022/M.%20Choosing%20a%20name%20%23Пересечение%20множеств)
 ✔️
