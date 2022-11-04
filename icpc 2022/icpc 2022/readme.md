@@ -43,5 +43,5 @@
 [N. First words](https://github.com/viCodexm/competitive-programming/tree/main/icpc%202022/icpc%202022/N.%20First%20words)
 ❌
 
-p.s. Если решено, то не добавлено решение сюда
+p.s. Если решено на сайте, то не добавлено решение сюда
 
