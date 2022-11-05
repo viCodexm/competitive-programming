@@ -5,7 +5,7 @@
 ✔️
 
 [B. The Moon golf](https://github.com/viCodexm/competitive-programming/tree/main/icpc%202022/icpc%202022/B.%20The%20Moon%20golf%20%23Жадина%20на%20расстояниях)
-❌
+✔️
 
 [C. Fare](https://github.com/viCodexm/competitive-programming/tree/main/icpc%202022/icpc%202022/C.%20Fare%20%23DFS%2BLCA%2Bмалая%20т.%20Ферма)
 ❌
