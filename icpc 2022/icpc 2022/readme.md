@@ -14,7 +14,7 @@
 ❌
 
 [E. Alley](https://github.com/viCodexm/competitive-programming/tree/main/icpc%202022/icpc%202022/E.%20Alley%20%23Пересечение%20окружностей)
-❌
+✔️
 
 [F. Bickford fuse](https://github.com/viCodexm/competitive-programming/tree/main/icpc%202022/icpc%202022/F.%20Bickford%20fuse)
 ❌
