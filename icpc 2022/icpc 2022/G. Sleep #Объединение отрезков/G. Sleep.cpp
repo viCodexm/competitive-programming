@@ -30,7 +30,7 @@ int main() {
 		return left.The_start < right.The_start;
 	});
 
-	int freetime = a[0].The_start; //Кол-во свободных секунд соседа для сверления
+	int freetime = 0 + a[0].The_start; //Кол-во свободных секунд соседа для сверления
 	int prevend = a[0].The_end; //До скольки она спит
 	n = a.size(); //Пересчитываем кол-во интервалов сна
 	for (int i = 1; i < n; ++i) {
