@@ -72,7 +72,7 @@ void Solution(node* root, vector<int> a) {
 	cout << "Find 3: " << root->find(root, 3) << endl;
 	cout << "Find 2: " << root->find(root, 2) << endl;
 	cout << "Find 1: " << root->find(root, 1) << endl;
-
+	
 	cout << endl << endl;
 }
 
