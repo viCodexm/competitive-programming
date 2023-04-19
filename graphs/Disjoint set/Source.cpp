@@ -1,4 +1,4 @@
-﻿
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -11,7 +11,7 @@ class DisjointSet {
 public:
 	vector<int> parent;
 
-	void init(int n) {
+	DisjointSet(int n) {
 		parent.resize(n + 1);
 		for (int i = 1; i <= n; ++i)
 			parent[i] = i;
@@ -35,7 +35,7 @@ int main() {
 	ios_base::sync_with_stdio(NULL);
 	cin.tie(NULL);
 
-	DisjointSet ds;
+	DisjointSet ds(8);
 
 	/* Example of finding `Minimal Spanning Tree` using Kruskall's algorithm*/
 
@@ -65,12 +65,12 @@ int main() {
 		{8, 6, 11},
 		{8, 7, 3}
 	};
-	
+
 	sort(input.begin(), input.end(), [](const ftw& left, const ftw& right) {
 		return left.weight < right.weight;
-	});
+		});
 
-	ds.init(8);
+	
 	int totalWeight = 0;
 	for (ftw& edge : input) {
 		int from = edge.from;
