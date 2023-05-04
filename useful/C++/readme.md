@@ -1,10 +1,15 @@
- [Дорожная карта по изучению С++](https://miro.com/app/board/o9J_lFH_iBs=/) 
- =
+Включить максимальную оптимизацию у компилятора
 
-Также может быть интересно
+#pragma GCC optimize("-Ofast", "unroll-loops")
 
-[Понимание lvalue и rvalue в C и С++](https://habr.com/ru/articles/348198/) В комментах также полезные ссылки
 
-[Инициализация в современном C++](https://habr.com/ru/companies/jugru/articles/469465/)
+Включить все библиотеки в файл (работает только у GCC)
 
-[Выравнивание данных (структуры и классы)](https://ru.stackoverflow.com/questions/435726/Выравнивание-данных)
+#include <bits/stdc++.h>
+
+Увеличить скорость ввода/вывода библиотеки <iostream>
+
+int main() {
+    cin.tie(0);
+    ios_base::sync_with_stdio(false);
+}
