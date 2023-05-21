@@ -1,4 +1,4 @@
-
+﻿
 #include <iostream>
 #include <map>
 #include <unordered_map>
@@ -73,7 +73,7 @@ int main() {
 
 	chrono::steady_clock::time_point start, stop;
 
-	const int insert_size = 4'000'000;
+	const int insert_size = 1'000'000;
 	const int insert_maxValue = insert_size * 10;
 	vector<int> iKeys(insert_size);
 	int used = 0;
@@ -83,7 +83,9 @@ int main() {
 	}
 	cout << "Hash function: key % 2237561\n";
 	cout << "Hash table size: 2237561\n";
-	cout << "Total elements: " << used << "\n";
+	cout << "Total keys: " << used << "\n";
+	cout << "Range of keys: " << iKeys[0] << "..." << iKeys[used - 1] << "\n";
+	cout << "Next key is equal to last plus 100";
 	cout << "\ninserting elements:\n";
 	
 	unordered_map<int, int> uDict;
