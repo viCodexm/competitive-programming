@@ -2,7 +2,7 @@
 =
 
 <p align="center">
-  <img src="Картинки/Scalar_Mul.jpg" width="860"/>
+  <img src="Images/Scalar_Mul.jpg" width="860"/>
 </p>
 
 Скалярное произведение двух векторов равно перемножению их длин на косинус угла между ними:
