@@ -12,7 +12,7 @@ public:
     TreeNode* ans;
     
     Solution() {
-        this->ans = NULL;
+        ans = NULL;
     }
     
     bool rec(TreeNode* current, TreeNode* p, TreeNode* q) {
@@ -32,7 +32,7 @@ public:
     }
 
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        this->rec(root, p, q);
-        return this->ans;
+        rec(root, p, q);
+        return ans;
     }
 };
