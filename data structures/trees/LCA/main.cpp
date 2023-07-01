@@ -26,7 +26,7 @@ public:
             mid = true;
         
         if (left + right + mid >= 2)
-            this->ans = current;
+            ans = current;
         
         return (left + right + mid > 0);
     }
