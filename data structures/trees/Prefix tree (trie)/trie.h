@@ -1,6 +1,6 @@
 struct TrieNode {
     bool isEnd;
-    map<char, TrieNode*> children;
+    unordered_map<char, TrieNode*> children;
 };
 class Trie {
     TrieNode root;
