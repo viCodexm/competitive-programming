@@ -2,11 +2,12 @@ Trie или prefix tree представляет собой дерево, где
 При вставке последней буквы слова она помечается как `конечная`, что пригождается при проверке есть ли такое слово.  
 Пример:  
 ```
-Trie.insert("app");
-Trie.insert("apple");
-Trie.search("app"); // returns True
-Trie.search("melon"); // returns False
-Trie.insert("aroma");
+Trie trie;
+trie.insert("app");
+trie.insert("apple");
+trie.search("app"); // returns True
+trie.search("melon"); // returns False
+trie.insert("aroma");
 ```
     a
     | \
