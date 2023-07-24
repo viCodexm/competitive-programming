@@ -12,7 +12,6 @@ int BinaryPow(int x, unsigned int k) {
 double BinPow(double x, int k) {
 	double res = 1.0;
 	bool neg = (k < 0);
-
 	k = abs(k);
 	while (k) {
 		if (k & 1)
