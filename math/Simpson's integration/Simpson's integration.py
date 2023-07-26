@@ -10,7 +10,7 @@ N = 2 * (10 ** 3)  # количество шагов (уже умноженно�
 h = (upper_bound - lower_bound) / N
 integral = f(lower_bound)
 for i in range(1, N):
-    integral += f(lower_bound + h * i) * 2 * (2 if i & 1 else 1)
+    integral += f(lower_bound + h * i) * (4 if i & 1 else 2)
 else:
     integral += f(lower_bound + h * N)
     integral *= h / 3
