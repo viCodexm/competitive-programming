@@ -47,6 +47,15 @@ def GCD(a, b):
             b %= a
     return a if a else b
 ```
+<h2>Реализация НОД на Python через рекурсию</h2>
+
+```python
+def recGCD(a, b):
+    if b == 0:
+        return a
+    return recGCD(b, a % b)
+```
+
 <h2>Реализация НОК на Python</h2>
 
 ```python
