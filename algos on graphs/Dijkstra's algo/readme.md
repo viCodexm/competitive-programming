@@ -1,3 +1,4 @@
+![](Dijkstra_Animation.gif)  
 https://www.youtube.com/watch?v=_lHSawdgXpI&t=104s
 
 	Постановка задачи
