@@ -44,7 +44,3 @@ http://e-maxx.ru/algo/dijkstra
 <p align="center">
   <img src="https://github.com/viCodexm/competitive-programming/blob/main/graphs/Dijkstra's%20algo/Dijkstra_Animation.gif" alt="animated Dijkstra's algo" />
 </p>
-
-
-[`Подробная визуализация алгоритма`](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
-=
