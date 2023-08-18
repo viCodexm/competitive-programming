@@ -31,7 +31,6 @@ typedef vector<vi> vvi;
 
 typedef vector<char> vc;
 typedef vector<vc> vvc;
-typedef vector<int> vi;
 typedef pair<int, int> pi;
 typedef vector<pi> vpi;
 
