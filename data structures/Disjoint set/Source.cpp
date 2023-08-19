@@ -21,13 +21,15 @@ public:
 			parent[i] = getRep(parent[i]);
 		return parent[i];
 	}
-	void join(int u, int v) {
+	bool join(int u, int v) {
 		int RepU = getRep(u);
 		int RepV = getRep(v);
-		if (RepU == RepV) return;
+		if (RepU == RepV)
+			return false;
 		if (rand() % 2)
 			parent[RepU] = RepV;
 		else parent[RepV] = RepU;
+		return true;
 	}
 };
 
