@@ -1,0 +1,22 @@
+N. First words
+time limit per test 1 second
+memory limit per test 256 megabytes
+
+Условие
+В процессе
+
+Вопрос
+На входе
+На выходе:
+
+Examples
+input
+4
+bububu
+mama
+papa
+matan
+bububumatanbububumama
+
+output
+YES

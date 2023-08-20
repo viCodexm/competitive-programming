@@ -1,0 +1,29 @@
+I. Problem on array
+time limit per test 4.5 second
+memory limit per test 256 megabytes
+
+Условие
+В процессе
+
+
+Вопрос
+На входе
+На выходе:
+
+
+Examples
+input
+2
+
+1
+
+0
+
+output
+get 1
+
+get 2
+
+swap 1 2
+
+Sorted!

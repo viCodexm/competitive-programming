@@ -1,0 +1,34 @@
+M. Choosing a name
+time limit per test 1 second
+memory limit per test 256 megabytes
+
+Условие
+В процессе
+
+Вопрос
+На входе
+На выходе:
+
+
+Examples
+input
+5 4 2 3
+kirill
+ruslan
+sonya
+veronika
+vasya
+ruslan
+alina
+sonya
+veronika
+nastya
+masha
+sasha
+masha
+natasha
+
+output
+ruslan
+sonya
+veronika

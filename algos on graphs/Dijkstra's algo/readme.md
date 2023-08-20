@@ -1,7 +1,7 @@
 ![](Dijkstra_Animation.gif)  
 https://www.youtube.com/watch?v=_lHSawdgXpI&t=104s  
 [744-LeetCode]  
-	Постановка задачи  
+<h2>Постановка задачи</h2>  
 Дан ориентированный или неориентированный взвешенный граф с n вершинами и m рёбрами. 
 Веса всех рёбер неотрицательны. Указана некоторая стартовая вершина s. Требуется 
 найти длины кратчайших путей из вершины s во все остальные вершины, а также предоставить 
@@ -10,7 +10,8 @@ https://www.youtube.com/watch?v=_lHSawdgXpI&t=104s
 (single-source shortest paths problem).
 http://e-maxx.ru/algo/dijkstra
 
-	Алгоритм Дейкстры:
+<h2>Алгоритм Дейкстры</h2>
+
 Находит кратчайшие пути от одной из вершин графа до всех остальных.
 Алгоритм работает только для графов без рёбер отрицательного веса.
 
@@ -40,7 +41,3 @@ http://e-maxx.ru/algo/dijkstra
 Если полученное значение длины меньше значения метки соседа, заменим значение метки 
 полученным значением длины. 
 Рассмотрев всех соседей, пометим вершину u как посещённую и повторим шаг алгоритма.
-
-<p align="center">
-  <img src="https://github.com/viCodexm/competitive-programming/blob/main/graphs/Dijkstra's%20algo/Dijkstra_Animation.gif" alt="animated Dijkstra's algo" />
-</p>
