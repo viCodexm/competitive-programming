@@ -6,4 +6,7 @@ Depth First Search (Поиск в глубину)
 
 [ВИДЕО с пояснением алгоритма](https://www.youtube.com/watch?v=k9cNb5ePN_Y&list=LL&index=19)
 
-http://e-maxx.ru/algo/dfs
+[Поиск в глубину (e-maxx)](http://e-maxx.ru/algo/dfs)
+
+[Проверка графа на ацикличность и нахождение цикла](https://e-maxx.ru/algo/finding_cycle)
+
