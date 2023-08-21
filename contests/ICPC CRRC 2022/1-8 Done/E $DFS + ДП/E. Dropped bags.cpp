@@ -9,7 +9,6 @@
 #include <bitset>
 #include <vector>
 #include <string>
-#include <ranges>
 #include <queue>
 #include <deque>
 #include <stack>
@@ -51,10 +50,9 @@ int dfs(int cur, int k, int sum) {
         return dp[cur][k];
     
     for (int& to : connects[cur]) {
-        
+        if (used[{cur, to}]) //Чтобы не ходить два раза в одну и ту же сторону
+            continue;
         for (auto& [price, nIdx] : adj[{cur, to}]) {
-            if (used[{cur, to}])
-                continue;
             int weight = price;
             int& back_price = adj[{to, cur}][nIdx].first;
  
@@ -76,11 +74,10 @@ int main() {
         int a, b, c; cin >> a >> b >> c;
         connects[a].push_back(b);
         connects[b].push_back(a);
-        adj[{a, b}].push_back({ c, adj[{b, a}].size() });
-        adj[{b, a}].push_back({ c, adj[{a, b}].size() - 1 });
+        adj[{a, b}].push_back({ c, adj[{a, b}].size() });
+        adj[{b, a}].push_back({ c, adj[{b, a}].size() });
     }
-    dp.resize(cities + 1, vi(k + 1, -1));
-    //used.resize(cities + 1, vi(cities + 1, 0));
+    dp.resize(cities + 1, vi(k + 1, -1));   
     dfs(1, k, 0);
     cout << ans;
     return 0;
