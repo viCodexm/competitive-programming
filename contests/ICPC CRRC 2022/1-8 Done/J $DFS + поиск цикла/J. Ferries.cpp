@@ -21,6 +21,10 @@ struct Stack{
 
 int main()
 {
+    // 2 строки ниже значительно ускоряют время работы проги
+    std::cin.tie(0);
+    ios_base::sync_with_stdio(false);
+    
     int n;
     cin >> n;
     

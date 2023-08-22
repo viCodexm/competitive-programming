@@ -20,12 +20,7 @@ class Segment:
             return other.dist + main.seg["l"] - other.seg["r"]
         # 2. b > l
         else:
-            # 1.1 a < b
-            if other.whole:
-                return Segment.minutesPerWeek + (main.seg["l"] - other.seg["l"])
-            # 1.2 a > b
-            else:
-                return Segment.minutesPerWeek * 2 + (main.seg["l"] - other.seg["l"])
+            return other.dist + Segment.minutesPerWeek - (other.seg["r"] - main.seg["l"])
 
     @staticmethod
     def calcDistBack(main, other):
