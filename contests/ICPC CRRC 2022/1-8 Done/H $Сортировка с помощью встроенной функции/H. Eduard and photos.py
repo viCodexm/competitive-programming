@@ -1,12 +1,7 @@
-events = []
-N = 1
-while True:
-    try:
-        s = input().split()
-        s = [s[0], s[2], s[1], s[3], s[4], N]
-        events.append(s)
-    except:
-        break
+events, N = [], 1
+for s in open(0):
+    s = s.split()
+    events.append([s[0], s[2], s[1], s[3], s[4], N])
     N += 1
 events.sort()
 for s in events:
