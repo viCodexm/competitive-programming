@@ -9,8 +9,8 @@
 ## Увеличить скорость ввода/вывода библиотеки iostream
 ```c++
 int main() {
-    std::cin.tie(0);
-    ios_base::sync_with_stdio(false);
+    ios_base::sync_with_stdio(0);
+    std::cin.tie(0);    
 }
 ```
 ## Перенаправление stdin/stdout в файлы
