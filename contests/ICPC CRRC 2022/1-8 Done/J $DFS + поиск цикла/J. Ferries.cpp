@@ -5,7 +5,7 @@ using namespace std;
 struct Stack{
     int *volume, last = -1;
     Stack(int size){
-        volume = new int[size]{};
+        volume = new int[size];
     }
     void push(int x){
         ++last;
@@ -25,11 +25,10 @@ int main()
     std::cin.tie(0);
     ios_base::sync_with_stdio(false);
     
-    int n;
+    int n, u, v;
     cin >> n;
     
     //Ввод графа (список смежности)
-    int u, v;
     vector<vector<int>> graph(n);
     for (int i = 0; i < n; ++i){
         cin >> u >> v;
@@ -43,11 +42,10 @@ int main()
     #define GRAY 1
     #define BLACK 2
             
-    int parent[n]{0}, used[n]{0};
+    int parent[n]{0}, used[n]{1};
     bool hasCycle = false, needNextIter = false;
     Stack cycle(n);
-    
-    used[0] = 1; 
+  
     cycle.push(0);
     while (true){
         u = cycle.top();
@@ -78,12 +76,12 @@ int main()
     }
    
     //Считаем длину цикла и выводим сам цикл   
-    int i = cycle.last, len_cycle = 0;
+    int i = cycle.last, len_cycle = 1;
     while (cycle.volume[i] != u){
         ++len_cycle;
         --i;
     }
-    cout << len_cycle + 1 << "\n";
+    cout << len_cycle << "\n";
     
     i = cycle.last;
     cout << cycle.volume[i] + 1 << " " << u + 1 << "\n";

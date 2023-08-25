@@ -2,8 +2,8 @@
 using namespace std;
  
 int main() {
-    
-    int n, module, nums[30001];
+   
+    int n, module, nums[30000];
     cin >> n >> module;
     for (int i = 0; i < n; ++i)
         cin >> nums[i];
@@ -13,14 +13,13 @@ int main() {
         long long x = 0;
         for (int j = i; j < n; ++j) {
             x += nums[j];
-            total += (psum * x);
+            total += psum * x;
             psum += x;
         }
         total %= module;
         psum %= module;
     }
-    cout << total % module;
-   
+    cout << total;
  
     return 0;
 }
