@@ -1,18 +1,17 @@
-Здесь пока пусто 😶‍🌫️
+# Здесь пока пусто 😶‍🌫️
 
-<h2>algos on graph</h2>
-
+## algos on graph
 * A star
 * BFS
 * DFS
 * Dijkstra's algo
 
-<h2>algos on strings</h2>
-
+## algos on strings
 * Aho-Corasick
 * Knuth–Morris–Pratt
 
-combinatorics
+## combinatorics
+* sum of pairwise products
 
 contests
 

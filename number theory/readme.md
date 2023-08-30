@@ -28,15 +28,13 @@ print(sorted(allDivisors))
 ### Разложение числа на простые множители
 ```python
 def factorize(n: int) -> list[int]:
-    if n == 1:
-        return []
     fact, i = [], 2
     while i * i <= n:
         while n % i == 0:
             fact.append(i)
             n //= i
         i += 1
-    return fact + [n]
+    return fact if n == 1 else fact + [n]
 
 print(factorize(2342352355))
 ```
