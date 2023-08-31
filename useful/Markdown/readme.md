@@ -9,7 +9,7 @@
 <br></br>
 ```
 
-В Visual Code Studio есть расширение для отображение синтаксиса Markdown файлов.
+В Visual Code Studio есть расширение для отображения синтаксиса Markdown файлов. Я рекомендую установить такой модуль [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 
 ## Частоиспользуемые символы для форматирования:
 
@@ -42,7 +42,6 @@
 print("Hello World")
 ```
 
-Внутри $$ записывается математическое выражение
+Внутри $$ записывается математическое выражение:
 
 $a_{1}$ - индекс
-

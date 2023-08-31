@@ -1,3 +1,7 @@
+
+[Практическое применение](https://www.youtube.com/watch?v=uKTt7TB9dXM&list=PLDrmKwRSNx7KcHxyf9hSmF3fTLKSwujkM&index=7)
+
+
 # Скалярное произведение векторов
 
 <p align="center">

@@ -45,5 +45,4 @@ Output:
 13
 ```
 
-[Уменьшение памяти до O(W) (решение внизу)](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
-
+[Уменьшение памяти до O(W) (нужно идти в обратном порядке)](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/) 
