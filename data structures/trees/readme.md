@@ -1,16 +1,17 @@
 Все виды деревьев для решения самых специфических задач 😎
 
-* Binary tree
+* Binary tree✔️
 * Balanced tree
 * Self balancing tree
 * Red-black tree
-* Fenvick's tree
+* Fenvick's tree✔️
 * B-tree
 * B+-tree
 * R-tree
-* Prefix tree
+* Prefix tree (Trie)✔️
 * Suffix tree
 * Treap
 * AVL tree
 * M-tree
 * Basis tree
+* Search Tree✔️
