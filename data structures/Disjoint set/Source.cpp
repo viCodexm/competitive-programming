@@ -13,8 +13,7 @@ public:
 
 	DisjointSet(int n) {
 		parent.resize(n + 1);
-		for (int i = 1; i <= n; ++i)
-			parent[i] = i;
+		iota(parent.begin(), parent.end(), 1);
 	}
 	int getRep(int i) {
 		if (parent[i] != i)
@@ -70,7 +69,7 @@ int main() {
 
 	sort(input.begin(), input.end(), [](const ftw& left, const ftw& right) {
 		return left.weight < right.weight;
-		});
+	});
 
 	
 	int totalWeight = 0;
