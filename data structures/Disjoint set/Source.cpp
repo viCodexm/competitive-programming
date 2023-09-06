@@ -13,7 +13,8 @@ public:
 
 	DisjointSet(int n) {
 		parent.resize(n + 1);
-		iota(parent.begin(), parent.end(), 1);
+		// 0 index is not used
+		iota(parent.begin() + 1, parent.end(), 1);
 	}
 	int getRep(int i) {
 		if (parent[i] != i)
@@ -78,10 +79,9 @@ int main() {
 		int to = edge.to;
 		int weight = edge.weight;
 
-		if (ds.getRep(from) != ds.getRep(to)) {
-			ds.join(from, to);
+		// if they are in different groups so we can merge them
+		if (ds.join(from, to))
 			totalWeight += weight;
-		}
 	}
 	cout << totalWeight << "\n";
 	cout << "Expected weight is 34\n";
