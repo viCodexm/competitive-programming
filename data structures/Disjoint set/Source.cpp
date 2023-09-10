@@ -1,7 +1,9 @@
-
 #include <iostream>
-#include <vector>
 #include <algorithm>
+#include <numeric>
+#include <vector>
+
+#define all(v)		v.begin(), v.end()
 
 using namespace std;
 
@@ -14,7 +16,7 @@ public:
 	DisjointSet(int n) {
 		parent.resize(n + 1);
 		// 0 index is not used
-		iota(parent.begin() + 1, parent.end(), 1);
+		iota(all(parent), 0);
 	}
 	int getRep(int i) {
 		if (parent[i] != i)
@@ -33,10 +35,7 @@ public:
 	}
 };
 
-int main() {
-	ios_base::sync_with_stdio(NULL);
-	cin.tie(NULL);
-
+int main() {	
 	DisjointSet ds(8);
 
 	/* Example of finding `Minimal Spanning Tree` using Kruskall's algorithm*/
@@ -71,7 +70,6 @@ int main() {
 	sort(input.begin(), input.end(), [](const ftw& left, const ftw& right) {
 		return left.weight < right.weight;
 	});
-
 	
 	int totalWeight = 0;
 	for (ftw& edge : input) {

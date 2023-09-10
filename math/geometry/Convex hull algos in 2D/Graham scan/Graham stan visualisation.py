@@ -45,5 +45,5 @@ def plot_graph(points, hull):
 import random
 
 points = [(random.randint(0, 100), random.randint(0, 100)) for _ in range(50)]
-hull = graham_scan(points)
+hull = graham_scan(points[:])
 plot_graph(points, hull)
