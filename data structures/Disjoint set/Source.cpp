@@ -21,26 +21,24 @@ public:
 			parent[i] = getRep(parent[i]);
 		return parent[i];
 	}
-	bool join(int u, int v) {
+	void join(int u, int v) {
 		int RepU = getRep(u);
 		int RepV = getRep(v);
-		if (RepU == RepV)
-			return false;
+		if (RepU == RepV) return;
 		if (rand() % 2)
 			parent[RepU] = RepV;
 		else parent[RepV] = RepU;
-		return true;
 	}
 };
 
 int main() {
 	ios_base::sync_with_stdio(NULL);
 	cin.tie(NULL);
-
+	
 	DisjointSet ds(8);
-
+	
 	/* Example of finding `Minimal Spanning Tree` using Kruskall's algorithm*/
-
+	
 	struct ftw {
 		int from, to, weight;
 	};
@@ -67,21 +65,20 @@ int main() {
 		{8, 6, 11},
 		{8, 7, 3}
 	};
-
+	
 	sort(input.begin(), input.end(), [](const ftw& left, const ftw& right) {
 		return left.weight < right.weight;
 	});
-
 	
 	int totalWeight = 0;
 	for (ftw& edge : input) {
 		int from = edge.from;
 		int to = edge.to;
 		int weight = edge.weight;
-
-		// if they are in different groups so we can merge them
-		if (ds.join(from, to))
+		if (ds.getRep(from) != ds.getRep(to)) {
+			ds.join(from, to);
 			totalWeight += weight;
+		}
 	}
 	cout << totalWeight << "\n";
 	cout << "Expected weight is 34\n";
