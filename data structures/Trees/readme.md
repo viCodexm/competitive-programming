@@ -15,3 +15,4 @@
 * M-tree
 * Basis tree
 * Search Tree✔️
+* Segment Tree (sum✔️/min/min & max)
