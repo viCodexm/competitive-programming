@@ -12,7 +12,9 @@
 #include <bitset>
 #include <vector>
 #include <string>
-#include <ranges>    // C++23, may not be working on some platforms with lower C++ standart
+//#include <ranges>    // C++23, may not be working on some platforms with lower C++ standart
+#include <random>
+#include <chrono>
 #include <queue>
 #include <deque>
 #include <stack>
@@ -35,9 +37,12 @@ typedef vector<vc> vvc;
 typedef pair<int, int> pi;
 typedef vector<pi> vpi;
 
+// rng() to get one number
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+
 int main() {
     ios_base::sync_with_stdio(0);
-    std::cin.tie(0);
-
+    cin.tie(0);
+    
     return 0;
 }
