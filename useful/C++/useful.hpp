@@ -111,13 +111,13 @@ void umap() {
 //----------------------------
 // hide debug for ONLINE_JUDGE
 // int main() {
-    #if !ONLINE_JUDGE
+    #ifndef ONLINE_JUDGE // '#ifndef ONLINE_JUDGE' equals to '#if !ONLINE_JUDGE'
         #define _CRT_SECURE_NO_WARNINGS
         #include <cstdio>
         freopen("input.txt", "r", stdin);
     #endif
 
-    #if !ONLINE_JUDGE
+    #ifndef ONLINE_JUDGE
         // cout debug here
     #endif
     // actual code
