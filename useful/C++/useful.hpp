@@ -107,3 +107,12 @@ struct pair_hash
 void umap() {
     unordered_map<pair<int, int>, Ceil, pair_hash> memory;
 }
+
+// hide debug for ONLINE_JUDGE
+// int main() {
+    #if !ONLINE_JUDGE
+        // print debug here
+    #endif
+    // actual code
+// }
+
