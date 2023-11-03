@@ -108,10 +108,17 @@ void umap() {
     unordered_map<pair<int, int>, Ceil, pair_hash> memory;
 }
 
+//----------------------------
 // hide debug for ONLINE_JUDGE
 // int main() {
     #if !ONLINE_JUDGE
-        // print debug here
+        #define _CRT_SECURE_NO_WARNINGS
+        #include <cstdio>
+        freopen("input.txt", "r", stdin);
+    #endif
+
+    #if !ONLINE_JUDGE
+        // cout debug here
     #endif
     // actual code
 // }
