@@ -91,3 +91,19 @@ void betterLoop() {
     fo(i, n)
         cout << a[i] << " ";
 }
+
+// Custom hash for unordered_map
+struct Ceil {
+    pair<int, int> down, up, left, right;
+};
+
+struct pair_hash
+{
+    template <class T1, class T2>
+    std::size_t operator() (const std::pair<T1, T2> &pair) const {
+        return std::hash<T1>()(pair.first) ^ std::hash<T2>()(pair.second);
+    }
+};
+void umap() {
+    unordered_map<pair<int, int>, Ceil, pair_hash> memory;
+}
